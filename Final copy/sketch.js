@@ -43,7 +43,7 @@ function gotResults(error, results) {
 }*/
 let video;
 let seriously;
-let effects = ['blur','kaleidoscope' ,'polar', 'ditch','panorama' ,'colorcube','layer','nightvision','hue-saturation'];
+let effects = ['blur','kaleidoscope' ,'polar', 'dither','panorama' ,'colorcube','layers','nightvision','hue-saturation'];
 let currentEffect;
 let source;
 let target;
