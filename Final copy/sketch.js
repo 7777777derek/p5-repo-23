@@ -1,5 +1,4 @@
 //code: myself+chatGPT
-//music: myself
 //inspiration: Dan Shiffman: https://www.youtube.com/watch?v=H81Tdrmz2LA
 
 /*let video;
