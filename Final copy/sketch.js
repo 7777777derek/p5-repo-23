@@ -1,4 +1,5 @@
 //code: myself+chatGPT
+//music: myself
 //inspiration: Dan Shiffman: https://www.youtube.com/watch?v=H81Tdrmz2LA
 
 /*let video;
@@ -42,7 +43,7 @@ function gotResults(error, results) {
 }*/
 let video;
 let seriously;
-let effects = ['blur', 'noise', 'polar', 'colorcube','sepia','vignette','hue-saturation'];
+let effects = ['blur','kaleidoscope' ,'polar', 'ditch','panorama' ,'colorcube','layer','nightvision','hue-saturation'];
 let currentEffect;
 let source;
 let target;
@@ -50,7 +51,7 @@ let canvas;
 let objectDetector;
 
 function setup() {
-  canvas = createCanvas(640, 480, WEBGL);
+  canvas = createCanvas(1280, 1280, WEBGL);
   video = createCapture(VIDEO);
   video.size(width, height);
   video.hide();
